@@ -6,19 +6,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/components/header/header.component';
 import { FooterComponent } from './core/components/footer/footer.component';
 import { PageNotFoundComponent } from './core/pages/page-not-found/page-not-found.component';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, MatButtonModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
