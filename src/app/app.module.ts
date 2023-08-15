@@ -7,6 +7,7 @@ import { HeaderComponent } from './core/components/header/header.component';
 import { FooterComponent } from './core/components/footer/footer.component';
 import { PageNotFoundComponent } from './core/pages/page-not-found/page-not-found.component';
 import { MatButtonModule } from '@angular/material/button';
+import { HomeComponent } from './core/pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { MatButtonModule } from '@angular/material/button';
     HeaderComponent,
     FooterComponent,
     PageNotFoundComponent,
+    HomeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, MatButtonModule],
   providers: [],
