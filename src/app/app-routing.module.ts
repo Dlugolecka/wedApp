@@ -14,8 +14,17 @@ const routes: Routes = [
     component: HomeComponent,
   },
   {
+    path: 'login',
+    loadChildren: () =>
+      import('./features/login/login.module').then((m) => m.LoginModule),
+  },
+  {
     path: 'error',
     component: PageNotFoundComponent,
+  },
+  {
+    path: '**',
+    redirectTo: 'error',
   },
 ];
 
