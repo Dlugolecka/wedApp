@@ -1,7 +1,14 @@
 <div class="main_content">
-  <img class="header_img" src="../../../../assets/couple.png" alt="logo" />
+  <img
+    class="header_img"
+    src="../../../../assets/couple.png"
+    alt="logo"
+    (click)="goToHome()"
+  />
   <div class="header_btn">
-    <button class="btn" mat-raised-button color="primary">zaloguj</button>
+    <button class="btn" mat-raised-button color="primary" (click)="goTOLogin()">
+      zaloguj
+    </button>
     <button class="btn" mat-raised-button color="primary">zarejestruj</button>
   </div>
 </div>
