@@ -1,40 +1,5 @@
-.main_content {
-  background-color: #f1e9dd;
+.flex {
   height: 100%;
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.main_txt {
-  background-color: rgb(65, 65, 103);
-  width: 40%;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  font-size: 42px;
-  padding: 15px;
-  text-align: center;
-}
-
-.quote_txt {
-  display: flex;
-  flex-flow: row wrap;
-  font-size: 16px;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-}
-
-.opinions_txt {
-  width: 55%;
-  background-color: gray;
-  display: flex;
-  flex-flow: row wrap;
-  font-size: 16px;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
+  justify-content: space-evenly;
 }

@@ -8,6 +8,8 @@ import { FooterComponent } from './core/components/footer/footer.component';
 import { PageNotFoundComponent } from './core/pages/page-not-found/page-not-found.component';
 import { MatButtonModule } from '@angular/material/button';
 import { HomeComponent } from './core/pages/home/home.component';
+import { OpinionsComponent } from './core/components/opinions/opinions.component';
+import { ContentComponent } from './core/components/content/content.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { HomeComponent } from './core/pages/home/home.component';
     FooterComponent,
     PageNotFoundComponent,
     HomeComponent,
+    OpinionsComponent,
+    ContentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, MatButtonModule],
   providers: [],
